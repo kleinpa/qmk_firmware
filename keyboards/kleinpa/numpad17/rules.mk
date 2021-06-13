@@ -1,6 +1,3 @@
-MCU = atmega32u4
-BOOTLOADER = atmel-dfu
+LAYOUTS = numpad_5x4
 
 LTO_ENABLE = yes
-
-LAYOUTS = numpad_5x4

@@ -1,0 +1,7 @@
+{
+    "maintainer": "kleinpa",
+    "manufacturer": "peterklein.dev",
+    "usb": {
+        "vid": "0x6666"
+    }
+}
