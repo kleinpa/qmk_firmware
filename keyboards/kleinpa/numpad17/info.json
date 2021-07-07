@@ -8,6 +8,17 @@
     "processor": "atmega32u4",
     "bootloader": "atmel-dfu",
     "diode_direction": "COL2ROW",
+    "features": {
+        "backlight": false,
+        "command": false,
+        "console": false,
+        "extrakey": false,
+        "midi": false,
+        "mousekey": false,
+        "nkro": false,
+        "rgblight": false,
+        "unicode": false
+    },
     "width": 4,
     "height": 5,
     "key_count": 17,
