@@ -2,23 +2,12 @@
     "keyboard_name": "numpad17",
     "url": "https://github.com/kleinpa/keyboard-toolbox",
     "usb": {
-        "pid": "0x23B0",
+        "pid": "0x23B1",
         "device_ver": "0x0001"
     },
     "processor": "atmega32u4",
     "bootloader": "atmel-dfu",
     "diode_direction": "COL2ROW",
-    "features": {
-        "backlight": false,
-        "command": false,
-        "console": false,
-        "extrakey": false,
-        "midi": false,
-        "mousekey": false,
-        "nkro": false,
-        "rgblight": false,
-        "unicode": false
-    },
     "width": 4,
     "height": 5,
     "key_count": 17,

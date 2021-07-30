@@ -2,22 +2,11 @@
     "keyboard_name": "flitter-mk3",
     "usb": {
         "pid": "0x23B0",
-        "device_ver": "0x0001"
+        "device_ver": "0x0003"
     },
     "processor": "atmega32u4",
     "bootloader": "atmel-dfu",
     "diode_direction": "COL2ROW",
-    "features": {
-        "backlight": false,
-        "command": false,
-        "console": false,
-        "extrakey": false,
-        "midi": false,
-        "mousekey": false,
-        "nkro": false,
-        "rgblight": false,
-        "unicode": false
-    },
     "width": 12,
     "height": 4,
     "key_count": 42,
