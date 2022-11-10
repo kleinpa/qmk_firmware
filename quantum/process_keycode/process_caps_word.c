@@ -166,6 +166,9 @@ bool process_caps_word(uint16_t keycode, keyrecord_t* record) {
 #ifdef LAYER_LOCK_ENABLE // Ignore Layer Lock key.
             case QK_LAYER_LOCK:
 #endif // LAYER_LOCK_ENABLE
+#ifdef TAP_DANCE_ENABLE // Ignore Tri Layer keys.
+            case QK_TAP_DANCE ... QK_TAP_DANCE_MAX:
+#endif                   // TAP_DANCE_ENABLE
        // Ignore AltGr.
             case KC_RALT:
             case OSM(MOD_RALT):
