@@ -63,12 +63,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* |        |   q    |   w    |   e    |   r    |   t    |   y    |   u    |   i    |   o    |   p    |        | */
     _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_APP,  KC_GRV,  KC_TILD, KC_PIPE, KC_BSLS, KC_DEL,
     _______, KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_VOLD, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_VOLU,
-    _______, KC_PSCR, KC_SLCK, KC_INS,  KC_F11,  KC_F12,  KC_PAUS, KC_HOME, KC_PGDN, KC_PGUP, KC_END,  _______,
+    _______, KC_PSCR, KC_SCRL, KC_INS,  KC_F11,  KC_F12,  KC_PAUS, KC_HOME, KC_PGDN, KC_PGUP, KC_END,  _______,
     _______, _______, _______, _______, _______,  _______, KC_DEL,  _______, _______, _______, _______, _______
 ),
 [_LL1] = LAYOUT_ortho_4x12( /* left-hand nav and media */
 /* |        |   q    |   w    |   e    |   r    |   t    |   y    |   u    |   i    |   o    |   p    |        | */
-    _______, KC_MPLY, KC_VOLD, KC_VOLU, KC_MNXT, KC_BSPC, _______, _______, _______, _______, _______, RESET,
+    _______, KC_MPLY, KC_VOLD, KC_VOLU, KC_MNXT, KC_BSPC, _______, _______, _______, _______, _______, QK_BOOT,
     _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_ENT,  _______, _______, _______, _______, _______, _______,
     _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_DEL,  _______, _______, _______, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______

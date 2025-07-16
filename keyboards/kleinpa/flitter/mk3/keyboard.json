@@ -2,7 +2,7 @@
     "keyboard_name": "flitter-mk3",
     "usb": {
         "pid": "0x23B0",
-        "device_ver": "0x0003"
+        "device_version": "3.0.0"
     },
     "processor": "atmega32u4",
     "bootloader": "atmel-dfu",

@@ -1,0 +1,5 @@
+{
+    "name": "Default Linux Universal",
+    "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+    "postCreateCommand": "python3 -m pip install --user qmk && qmk setup"
+}
